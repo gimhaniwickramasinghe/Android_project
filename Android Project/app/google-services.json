@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277047751345",
+    "firebase_url": "https://dress-talk.firebaseio.com",
+    "project_id": "dress-talk",
+    "storage_bucket": "dress-talk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277047751345:android:3c4850e53642ca66",
+        "android_client_info": {
+          "package_name": "com.dresstalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277047751345-6q2slan3jfsiv6f22uu9he91lds3tnqt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dresstalk",
+            "certificate_hash": "9a3a919b1056997ab1da0471a86b09bacc71d0ac"
+          }
+        },
+        {
+          "client_id": "277047751345-vn5jdmvnu7ennq69871s65ur4ga52re0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhgCWWF2seXqzFproanf5ObdmT1LPrDy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277047751345-vn5jdmvnu7ennq69871s65ur4ga52re0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

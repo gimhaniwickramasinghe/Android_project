@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_settings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/close_stn_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/close_stn_btn"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentStart="true"
+                />
+
+                <TextView
+                    android:id="@+id/update_stn_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update_stn_btn"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="10dp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/stn_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/profile"
+        android:layout_below="@+id/app_bar_settings"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/set_profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_profile_image"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginEnd="115dp"
+        android:textStyle="bold"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/stn_profile_image"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/stn_f_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_profile_image"
+        android:layout_margin="15dp"
+        android:hint="@string/stn_f_name"
+        />
+    <EditText
+        android:id="@+id/stn_l_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stn_f_name"
+        android:layout_margin="15dp"
+        android:hint="@string/stn_l_name"
+        />
+    <EditText
+        android:id="@+id/stn_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stn_phone"
+        android:layout_margin="15dp"
+        android:hint="@string/stn_address"
+        />
+    <EditText
+        android:id="@+id/stn_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/stn_l_name"
+        android:layout_margin="15dp"
+        android:hint="@string/stn_phone"
+        />
+
+
+</RelativeLayout>

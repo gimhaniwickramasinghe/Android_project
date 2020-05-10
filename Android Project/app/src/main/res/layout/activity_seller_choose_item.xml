@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SellerChooseItemActivity">
+
+    <TextView
+        android:id="@+id/ad_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/ad_topic"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/ad_topic">
+
+        <ImageView
+            android:id="@+id/image_kids"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kid"
+            android:layout_marginEnd="100dp"
+            android:contentDescription="@string/image_kid"
+            />
+        <ImageView
+            android:id="@+id/image_men"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/men"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/image_men"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/line1">
+
+        <ImageView
+            android:id="@+id/image_women"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/women"
+            android:layout_marginEnd="100dp"
+            android:contentDescription="@string/image_women"
+            />
+        <ImageView
+            android:id="@+id/image_shoe"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/shoes"
+            android:layout_marginStart="20dp"
+            android:contentDescription="@string/image_shoe"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/input_design"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="@string/logout_btn"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

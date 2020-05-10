@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Dress talk</string>
+    <string name="app_logo">logo</string>
+    <string name="logoDescription">Come on! Dress with us !</string>
+    <string name="main_login_btn">Already have an account ?</string>
+    <string name="create_btn">Create account</string>
+    <string name="phone_input">Phone number</string>
+    <string name="password_input">Password</string>
+    <string name="remember_ch_box">Remember me</string>
+    <string name="forget_pw_link">Forget password</string>
+    <string name="login_btn">Login</string>
+    <string name="seller_link">I am seller</string>
+    <string name="customers_link">I am customer</string>
+    <string name="sign_phone_input">Phone number</string>
+    <string name="sign_create_btn">Create account</string>
+    <string name="sign_name1_input">First name</string>
+    <string name="sign_name2_input">Last name</string>
+    <string name="ad_topic">SELL PRODUCTS</string>
+    <string name="image_kid">kid</string>
+    <string name="image_men">men</string>
+    <string name="image_women">women</string>
+    <string name="image_shoe">shoe</string>
+    <string name="add_product_img">Product image</string>
+    <string name="product_name">Product name</string>
+    <string name="product_description">Product description</string>
+    <string name="product_price">Product price</string>
+    <string name="add_product_btn">Add item</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_profile_name">User name</string>
+    <string name="update_stn_btn">Update</string>
+    <string name="close_stn_btn">Close</string>
+    <string name="set_profile_image">Change profile image</string>
+    <string name="stn_f_name">First name</string>
+    <string name="stn_l_name">Last name</string>
+    <string name="stn_address">Address</string>
+    <string name="stn_phone">Phone</string>
+    <string name="cart_checkout">Checkout</string>
+
+    <string name="nav_cart">Cart</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_categories">Categories</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Logout</string>
+    <string name="logout_btn">Log out</string>
+
+</resources>
